@@ -6,3 +6,18 @@
 h2 {
     font-size: 40px;
 }
+
+@media (max-width:500px) {
+    .table {
+        font-size: 10px;
+    }
+    h2 {
+        font-size: 20px;
+    }
+    .text-body-emphasis {
+        font-size: 10px;
+    }
+    .lead {
+        font-size: 10px;
+    }
+}
