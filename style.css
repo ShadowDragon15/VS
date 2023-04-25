@@ -1,11 +1,27 @@
 .table {
    font-size: 30px;
    margin-bottom: 100px;
+   color: rgb(69, 69, 69);
 }
 
 h2 {
     font-size: 40px;
+    color: rgb(53, 52, 52);
 }
+
+.first-lead {
+    color: rgb(53, 52, 52);
+  }
+  
+  .copyright {
+    color: rgb(69, 69, 69); ;
+  }
+  
+.lead {
+    color:rgb(69, 69, 69); 
+}
+
+
 
 @media (max-width:500px) {
     .table {
@@ -14,10 +30,13 @@ h2 {
     h2 {
         font-size: 20px;
     }
-    .text-body-emphasis {
-        font-size: 10px;
+    .first-lead {
+        font-size: 15px;
     }
     .lead {
+        font-size: 15px;
+    }
+    .copyright {
         font-size: 10px;
     }
 }
