@@ -21,6 +21,11 @@ h2 {
     color:rgb(69, 69, 69); 
 }
 
+.price {
+    text-align: left;
+    width: 175px;
+}
+
 
 
 @media (max-width:500px) {
