@@ -9,11 +9,12 @@ h2 {
     color: rgb(53, 52, 52);
 }
 
+
 .first-lead {
     color: rgb(53, 52, 52);
   }
   
-  .copyright {
+.copyright {
     color: rgb(69, 69, 69); ;
   }
   
@@ -23,11 +24,33 @@ h2 {
 
 .price {
     text-align: left;
-    width: 175px;
+    width: 40%;
+}
+
+td.price {
+    padding-left: 150px;
 }
 
 
 
+
+
+@media (max-width:992px) {
+    td.price {
+        padding-left: 100px;
+    }
+}
+@media (max-width:768px) {
+    td.price {
+        padding-left: 50px;
+    }
+}
+
+@media (max-width:524px) {
+    td.price {
+        padding-left: 25px;
+    }
+}
 @media (max-width:500px) {
     .table {
         font-size: 15px;
@@ -44,4 +67,10 @@ h2 {
     .copyright {
         font-size: 10px;
     }
+   .price {
+    width: 30%
+   }
+   td.price {
+    padding-left: 0px;
+}
 }
